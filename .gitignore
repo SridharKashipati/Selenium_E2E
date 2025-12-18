@@ -1,0 +1,33 @@
+# Compiled class files
+target/
+*.class
+
+# Log files
+logs/
+*.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Allure cache
+.allure/
+
+# Reports - keep allure, ignore surefire
+reports/surefire/
+reports/allure-results/
+reports/test-console-output.txt
+test-output/
+
+.DS_Store

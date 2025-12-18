@@ -1,0 +1,8 @@
+testCase,method,endpoint,userId,title,body,expectedStatus,shouldSucceed
+"Get all posts",GET,/posts,,,,200,true
+"Get single post",GET,/posts/1,,,,200,true
+"Get non-existent post",GET,/posts/999999,,,,404,false
+"Create new post",POST,/posts,1,"Test Post Title","This is a test post body",201,true
+"Update post",PUT,/posts/1,1,"Updated Post Title","Updated post body",200,true
+"Delete post",DELETE,/posts/1,,,,200,true
+"Invalid endpoint",GET,/invalid-endpoint,,,,404,false
